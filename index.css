@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family:'Karla';
+    color: #10B981;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    padding: 55px;
+    border-radius: 10px;
+}
+
+text-output{
+    color: #5DEF92;
+}
+
+
+h3 {
+    color: #6B7280;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 8px;
+}
+
+h1 {
+    color: #273549;
+    font-size: 40px;
+    line-height: 8px;
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+}
+
+.generate-btn {
+
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    background: #10b981;
+    border-radius: 6px;
+    border: 1px solid #10b981;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;   
+
+}
+
+.passwords {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.password {
+    width: 200px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    border: 1px solid #273549;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #55F991;
+    font-size: 16px;
+}

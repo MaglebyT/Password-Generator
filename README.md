@@ -1,2 +1,8 @@
-# Password-Generator
-Password Generator with copy to clipboard on click 
+
+
+Quick start:
+
+```
+$ npm install
+$ npm start
+````
